@@ -133,7 +133,7 @@ while run:
         if rel_time:
             now_time = timer()
             if now_time - last_time < 3:
-                reload = font2.render('Wait...', 1, (233, 171, 171))
+                reload = font2.render('Wait..', 1, (233, 171, 171))
                 okienko.blit(reload, (200, 480))
             else:
                 rel_time = False
